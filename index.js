@@ -72,6 +72,7 @@ app.post('/user/update-template/:id', function(req, res){
 // });
 //demo
 app.get("/demo/get-all-templates",function(req,res){
+   console.log("aaaaa")
    var data = demo_templates.demo_templates.map((item ,i)=> {
       return {
         id:item.id,
