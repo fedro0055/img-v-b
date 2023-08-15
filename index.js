@@ -13,8 +13,6 @@ var canvas_sizes = require("./canvas_sizes.json");
 
 // to write
 const path_user = "./user_templates.json";
-const path_demo = "./demo_templates.json";
-const path_element = "./element_templates.json";
 
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
