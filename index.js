@@ -8,6 +8,8 @@ app.use(cors());
 var user_templates = require("./user_templates.json");
 var demo_templates = require("./demo_templates.json");
 var element_templates = require("./element_templates.json");
+var product_images = require("./product_images.json");
+var default_images = require("./default_images.json");
 var short_tags = require("./short_tags.json");
 var canvas_sizes = require("./canvas_sizes.json");
 
@@ -92,8 +94,7 @@ app.get("/demo/get-specific-template/:id",function(req,res){
 
 //product
 app.post("/product/get-preview-image",function(req,res){
-   var product_images = require("./product_images.json")
-   product_images = product_images['product_images'];
+   var product_images_json = product_images['product_images'];
    function randomNum_create(max,min){
       let arr=[];
       for (i = 0; i < max; i++) {
@@ -112,7 +113,7 @@ app.post("/product/get-preview-image",function(req,res){
       let data = [];
       [0,0,0,0,0].forEach((arg,i)=>{
 
-         product_images.forEach((element,index) => {
+         product_images_json.forEach((element,index) => {
 
              if(index == randomNum[i]){
                data.push(element);
@@ -135,7 +136,7 @@ app.post("/product/get-preview-image",function(req,res){
       
    }else{
       var data = [];
-      product_images.forEach((item,index)=>{
+      product_images_json.forEach((item,index)=>{
          if(item.id.indexOf(req.body.keyword) != -1 || item.title.indexOf(req.body.keyword) != -1 || item.brand.indexOf(req.body.keyword) != -1){
             data.push(item);
          }
@@ -149,6 +150,12 @@ app.post("/product/get-preview-image",function(req,res){
 
    }
    
+});
+
+app.get("/product/get-all-default-images", function(req,res){
+   
+   var default_images_json = default_images['default_images'];
+   res.json(default_images_json);
 });
 
 //element
