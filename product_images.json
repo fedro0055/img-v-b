@@ -38,8 +38,9 @@
             "brand": "brand4",
             "channel":"channel4",
             "avablility":"avablility4",            
-            "customField1": "custom value1",
-            "customField2": "custom value2"
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
+
         },
         {
             "image_link": "https://i.ibb.co/sbyH70f/images-10.jpg",
@@ -48,8 +49,8 @@
             "brand": "brand8",
             "channel":"channel8",
             "avablility":"avablility8",            
-            "customField1": "custom value1",
-            "customField2": "custom value2"
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
         },
         {
             "image_link": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
@@ -58,8 +59,8 @@
             "brand": "model8",
             "channel":"model8",
             "avablility":"avablility8",            
-            "customField1": "custom value1",
-            "customField2": "custom value2"
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
         }                                          
     ]
 }
