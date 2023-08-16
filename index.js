@@ -59,20 +59,8 @@ app.post('/user/update-template/:id', function(req, res){
 
    }
 });
-
-// app.post('/user/create-template', function(req, res){
-//    user_templates['user_templates'].push(req.body.data);
-        
-//    try {
-//        writeFileSync(path_user, JSON.stringify(user_templates, null, 2), "utf8");
-//        return res.json("Data successfully saved");
-//    } catch (error) {
-//       return res.json("An error has occurred ", error);
-//    }
-// });
 //demo
 app.get("/demo/get-all-templates",function(req,res){
-   console.log("aaaaa")
    var data = demo_templates.demo_templates.map((item ,i)=> {
       return {
         id:item.id,
@@ -124,7 +112,6 @@ app.post("/product/get-preview-image",function(req,res){
          if(i==4){
             return false;
          }
-
       });
       return res.json(data);
    }   

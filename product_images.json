@@ -10,6 +10,7 @@
             "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
             "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
         },
+        
         {
             "image_link": "https://i.ibb.co/4Pc85Vj/images-2.jpg",
             "name": "name2",
@@ -17,8 +18,8 @@
             "brand": "brand2",
             "channel":"channel2",
             "avablility":"avablility2",            
-            "customField1": "custom value1",
-            "customField2": "custom value2"
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
         },
         {
             "image_link": "https://i.ibb.co/2F03qQY/images-3.jpg",
@@ -27,8 +28,8 @@
             "brand": "brand3",
             "channel":"channel3",
             "avablility":"avablility3",            
-            "customField1": "custom value1",
-            "customField2": "custom value2"
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
         },
         {
             "image_link": "https://i.ibb.co/SKd5xd0/images-4.jpg",
