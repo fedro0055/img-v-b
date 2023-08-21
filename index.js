@@ -24,6 +24,7 @@ app.get("/test",function (req,res) {
 });
 
 app.get('/user/get-all-templates', function(req, res){
+   console.log(req.query)
    var data = user_templates.user_templates.map((item ,i)=> {
       return {
         id:item.id,
